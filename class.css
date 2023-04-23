@@ -1,0 +1,338 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  /* height: 900px; */
+  justify-content: flex-start;
+}
+.containerDiv { 
+  display: flex;
+  flex-direction: column;
+}
+
+.divTop {
+  display: flex;
+  flex-basis: 35px;
+  width: 100%;
+  background-color: #f90;
+  margin-bottom: 15px;
+}
+
+.divTittle {
+  margin: 0 auto;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.divSubTittle {
+  margin: 0 auto;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.divflags {
+  margin: 0 auto;
+}
+
+.imgFlag {
+width: 320px;
+height: 240px;
+border: 1px solid black;
+} 
+
+.divCheckCountry {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 70px;
+  justify-content: center;
+  align-content: center;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.inputCheckCountry {
+  margin-left:15px;
+  width: 250px;
+  height: 30px;
+}
+
+.divCheckClues {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 70px;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divClues {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+p {
+margin: 5px;
+}
+
+.divInfo {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 465px;
+  background-color: #f90;
+  color: white;
+  width: 100%;
+  height: 360px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.divFail {
+  color: white;
+  background-color: red;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  top: -10px;
+}
+
+.divWikiMaps {
+  display: flex;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+}
+#divFail {
+  opacity: 1;
+  animation: desaparecer 5s ease-in forwards;
+}
+
+@keyframes desaparecer {
+  to {
+    opacity: 0;
+  }
+}
+
+.imgWiki {
+  width: 90px;
+  margin-top: 10px;
+}
+
+.imgMaps {
+  width: 120px;
+}
+
+.btnClue {
+  border-radius: 3px;
+  background-color: #f90;
+  border: 1px solid #f90;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  height: 50px;
+  width: 175px;
+  margin-bottom: 15px;
+}
+
+.hideDiv {
+  display: none;
+}
+
+@media (min-device-width: 391px) {
+
+#root {
+  display: flex;
+  flex-direction: column;
+  /* height: 900px; */
+  justify-content: flex-start;
+}
+.containerDiv { 
+  display: flex;
+  flex-direction: column;
+}
+
+.divTop {
+  display: flex;
+  flex-basis: 35px;
+  width: 100%;
+  background-color: #f90;
+  margin-bottom: 15px;
+}
+
+.divTittle {
+  margin: 0 auto;
+  height: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.divSubTittle {
+  margin: 0 auto;
+  height: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.divflags {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgFlag {
+width: 320px;
+height: 240px;
+border: 1px solid black;
+} 
+
+.divCheckCountry {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 70px;
+  justify-content: center;
+  align-content: center;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.inputCheckCountry {
+  margin-left:15px;
+  width: 250px;
+  height: 30px;
+}
+
+.divCheckClues {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 70px;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divClues {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+p {
+  margin: 5px;
+  }
+
+.divInfo {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 500px;
+  background-color: #f90;
+  color: white;
+  width: 100%;
+  height: 400px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.divFail {
+  color: white;
+  background-color: red;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  top: -10px;
+}
+
+#divFail {
+  opacity: 1;
+  animation: desaparecer 5s ease-in forwards;
+}
+
+.divWikiMaps {
+  display: flex;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes desaparecer {
+  to {
+    opacity: 0;
+  }
+}
+
+.imgWiki {
+  width: 90px;
+  margin-top: 10px;
+}
+
+.imgMaps {
+  width: 120px;
+}
+
+.btnClue {
+  border-radius: 3px;
+  background-color: #f90;
+  border: 1px solid #f90;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  height: 50px;
+  width: 175px;
+  cursor: pointer;
+}
+
+.hideDiv {
+  display: none;
+}
+}
