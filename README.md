@@ -6,7 +6,7 @@ This game allows users to guess which country is from a random flag only. Simply
 * Real-time country data using API calls through async await functions
 # Technology Stack
 * JavaScript for creation/management of the DOM and API calls
-* HTML for root div & CSS for user interface design
+* HTML for root div & CSS for user interface design both pc and mobile
 # How to Use
 * Open the game in your web browser
 * A random flag is displayed and you have to discover which country it belongs to
